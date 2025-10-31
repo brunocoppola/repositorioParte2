@@ -1,0 +1,8 @@
+.characterList{
+    display: flex;
+    flex-wrap: wrap;
+}
+article{
+    border: 1px solid grey;
+    margin: 10px;
+}
