@@ -12,7 +12,7 @@
          for (let i = 0; i < data.results.length; i++) {
             character.push(`<article>
          <img src='${data.results[i].image}' alt=''>
-          <p>Name: ${data.results[i].name} </p>
+          <a class="nombre" href="detalle.html?id=${data.results[i].id}">Name: ${data.results[i].name} </a>
           <p>Status: ${data.results[i].status}</p>
  </article>
 `)
